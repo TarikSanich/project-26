@@ -1,0 +1,66 @@
+.section-hero {
+    display: inline-block;
+    background: #1C2225;
+    max-width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.title-hero {
+    color: #FCF9F9;
+    max-width: 335px;
+    font-family: Manrope;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 54px;
+     /* 122.727% */
+    letter-spacing: -1.32px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.Ukrainian {
+    color: #ECD979;
+}
+
+.button-hero {
+    display: inline-flex;
+    height: 49px;
+    padding: 14px 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.10); 
+    margin-left: 90px;
+    margin-bottom: 40px;
+    background-color: #1C2225;
+    color: #FCF9F9;
+        font-family: Manrope;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.56px;
+        text-transform: uppercase;
+}
+
+.button-icon {
+    width: 26px;
+    height: 10px;
+    transform: rotate(-30deg);
+    fill: var(--yellow, #ECD979);
+}
+
+.image-hero {
+    width: 335px;
+    border-radius: 4px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+}
+
