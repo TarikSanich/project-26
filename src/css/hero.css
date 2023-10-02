@@ -1,6 +1,17 @@
+body {
+background-color: #1C2225;
+}
+
+.container {
+    max-width: 375px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
 .section-hero {
     display: inline-block;
-    background: #1C2225;
+    background-color: #1C2225;
     max-width: 375px;
     margin-left: auto;
     margin-right: auto;
@@ -9,7 +20,7 @@
 
 .title-hero {
     color: #FCF9F9;
-    max-width: 335px;
+    width: 280px;
     font-family: Manrope;
     font-size: 44px;
     font-style: normal;
@@ -20,6 +31,8 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .Ukrainian {
@@ -40,13 +53,13 @@
     margin-bottom: 40px;
     background-color: #1C2225;
     color: #FCF9F9;
-        font-family: Manrope;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-        letter-spacing: -0.56px;
-        text-transform: uppercase;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.56px;
+    text-transform: uppercase;
 }
 
 .button-icon {
@@ -57,10 +70,135 @@
 }
 
 .image-hero {
-    width: 335px;
+    max-width: 335px;
     border-radius: 4px;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-    margin-left: auto;
-    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #1C2225;
 }
 
+.container-star {
+    display: none;
+}
+
+.shapka {
+    display: none;
+}
+
+@media screen and (min-width:678px) {
+    .container {
+            width: 678px;
+            position: static;
+            left: 0;
+            transform: translate(0);
+        }
+    
+        .section-hero {
+            width: 678px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .title-hero {
+                width: 549px;
+                font-size: 54px;
+                line-height: 64px;
+                /* 118.519% */
+                letter-spacing: -1.62px;
+                margin-top: 106px;
+        }
+
+    .image-hero {
+        width: 413px;
+        
+    }    
+
+    .shapka {
+        display: flex;
+        width:142.1591.dp;
+        height:156.71887.dp;
+        
+        flex-shrink: 0;  
+    }
+
+    .container-star {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        word-wrap: break-word;
+        width: 115px;
+        height: 111px;
+        position: absolute;
+        top: 80px;
+        left: 621px;
+        justify-content: center;
+    }
+
+    .img-star {
+        width: 52px;
+        height: 51px;
+        margin-bottom: 16px;  
+    }
+
+    .paragraf-star {
+        
+        color: rgba(252, 249, 249, 0.40);
+        font-family: Manrope;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.64em;
+        word-wrap: break-word;
+        width: 115px;
+        height: 44px;
+        text-align: center;
+        white-space: pre-line;
+    }
+
+    .shapka {
+        position: absolute;
+            top: 775px;
+            left: 588px;
+            width: 139px;
+            height: 99px;
+            /* border-radius: 157px 157px 0 0; */
+        }
+
+
+}
+
+@media screen and (min-width:1280px) {
+    .container {
+        width: 1280px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+
+    }
+
+    .section-hero {
+        display: inline-flex;
+        justify-content: flex-end;
+        flex-direction: row-reverse;
+        width: 1280px;
+    }
+   
+    .title-hero {
+        width: 518px;
+        font-size: 54px;
+        line-height: 64px;
+        /* 118.519% */
+        letter-spacing: -1.62px;
+}
+
+.image-hero {
+    display: block;
+    width: 391px;
+    border-radius: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #1C2225;
+}
+}
