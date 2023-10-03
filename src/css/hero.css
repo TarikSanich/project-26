@@ -2,7 +2,7 @@ body {
 background-color: #1C2225;
 }
 
-.container {
+.container-hero {
     max-width: 375px;
     position: absolute;
     left: 50%;
@@ -91,7 +91,7 @@ background-color: #1C2225;
 }
 
 @media screen and (min-width:678px) {
-    .container {
+    .container-hero {
             width: 678px;
             position: static;
             left: 0;
@@ -134,12 +134,21 @@ background-color: #1C2225;
         flex-direction: column;
         align-items: center;
         gap: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .block.star {
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .img-star {
         width: 52px;
         height: 51px;
-        margin-bottom: 16px;  
+        margin-bottom: 16px; 
+        margin-left: auto;
+        margin-right: auto; 
     }
 
     .paragraf-star {
@@ -168,7 +177,7 @@ background-color: #1C2225;
 }
 
 @media screen and (min-width:1280px) {
-    .container {
+    .container-hero {
         width: 1280px;
         position: absolute;
         left: 50%;
