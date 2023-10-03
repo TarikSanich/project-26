@@ -62,6 +62,10 @@ background-color: #1C2225;
     text-transform: uppercase;
 }
 
+.button-hero:hover.:focus {
+    border: 1px solid var(--yellow, #ECD979);
+}
+
 .button-icon {
     width: 26px;
     height: 10px;
