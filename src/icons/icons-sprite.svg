@@ -7,9 +7,9 @@
         d="M27.766 17.957a42.712 42.712 0 0 1-.337-3.49c-.022-1.04.017-1.94.119-2.7L2.255 26.37l-1.197-2.073L26.351 9.694a22.284 22.284 0 0 1-2.426-1.297A48.166 48.166 0 0 1 21.1 6.409l1.519-.877c3.209 1.349 6.143 2.024 8.804 2.023l.513.888c-1.35 2.271-2.233 5.149-2.65 8.636l-1.519.877z"
       />
     </symbol>
-    <symbol id="icon-burger" viewBox="0 0 32 32">
-      <path fill="none" stroke="#ecd979" stroke-width="2.182" stroke-linecap="round" style="stroke: var(--color1, #ecd979);" d="M5.961 8.628H30.91M5.961 21.851H30.91M13.613 15.24h17.296" />
-    </symbol>
+    <symbol id="icon-burger" viewBox="0 0 48 32">
+            <path fill="none" stroke="#ecd979" stroke-linecap="round" stroke-width="2.667" d="M8.638 5.455h38.029M8.638 24.849h38.029M20.116 15.151h26.551" style="stroke: var(--color2, #ecd979);" />
+        </symbol>
     <symbol id="icon-close" viewBox="0 0 32 32"><path stroke-width="2.182" stroke-linecap="round" stroke-linejoin="round" d="M24 8 8 24M8 8l16 16" /></symbol>
     <symbol id="icon-facebook" viewBox="0 0 32 32">
       <path
