@@ -41,6 +41,7 @@ background-color: #1C2225;
 
 .button-hero {
     display: inline-flex;
+    width: 90;
     height: 49px;
     padding: 14px 36px;
     justify-content: center;
@@ -60,6 +61,12 @@ background-color: #1C2225;
     line-height: normal;
     letter-spacing: -0.56px;
     text-transform: uppercase;
+    
+}
+
+.button-span {
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .button-hero:hover,:focus {
@@ -67,8 +74,8 @@ background-color: #1C2225;
 }
 
 .button-icon {
-    width: 26px;
-    height: 10px;
+    width: 30px;
+    height: 20px;
     /* transform: rotate(-30deg); */
     fill: var(--yellow, #ECD979);
 }
