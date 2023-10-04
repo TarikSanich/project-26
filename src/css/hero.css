@@ -97,15 +97,14 @@ background-color: #1C2225;
     display: none;
 }
 
-@media screen and (min-width:678px) {
+@media screen and (min-width:768px) {
     .container-hero {
             width: 678px;
-            position: static;
-            left: 0;
-            transform: translate(0);
         }
     
         .section-hero {
+            display: inline-flex;
+            justify-content: center;
             width: 678px;
             margin-left: auto;
             margin-right: auto;
@@ -197,16 +196,15 @@ background-color: #1C2225;
 @media screen and (min-width:1280px) {
     .container-hero {
         width: 1280px;
-        position: absolute;
-        left: 50%;
-        transform: translate(-50%);
-
     }
+
+
     .title-image-hero {
         display: flex;
         flex-direction: row-reverse;
         margin-left: 100px;
     }
+
 
     .section-hero {
         display: inline-flex;
@@ -214,6 +212,7 @@ background-color: #1C2225;
         flex-direction: row-reverse;
         width: 1280px;
     }
+
    
     .title-hero {
         width: 518px;
