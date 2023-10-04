@@ -1,0 +1,6 @@
+body {
+  background-color: var(--black-color);
+  color: var(--white-color);
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+}
