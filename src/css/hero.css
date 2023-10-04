@@ -69,7 +69,7 @@ background-color: #1C2225;
 .button-icon {
     width: 26px;
     height: 10px;
-    transform: rotate(-30deg);
+    /* transform: rotate(-30deg); */
     fill: var(--yellow, #ECD979);
 }
 
@@ -111,10 +111,12 @@ background-color: #1C2225;
                 /* 118.519% */
                 letter-spacing: -1.62px;
                 margin-top: 106px;
+                margin-bottom: 40px;
         }
 
     .image-hero {
         width: 413px;
+        margin-top: 40px;
         
     }    
 
@@ -136,6 +138,7 @@ background-color: #1C2225;
         gap: 10px;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 80px;
     }
 
     .block.star {
@@ -143,7 +146,7 @@ background-color: #1C2225;
         margin-right: auto;
     }
 
-    .img-star {
+    .star-icon {
         width: 52px;
         height: 51px;
         margin-bottom: 16px; 
@@ -152,17 +155,21 @@ background-color: #1C2225;
     }
 
     .paragraf-star {
-        
+        display: flex;
+        flex-wrap: wrap;
         color: rgba(252, 249, 249, 0.40);
         font-family: Manrope;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
-        letter-spacing: -0.64em;
-        width: 115px;
         text-align: center;
+        width: 115px;
+     
+        
     }
+
+
 
     .shapka {
             width: 139px;
@@ -170,7 +177,7 @@ background-color: #1C2225;
         }
 
     .elips-shapka {
-        margin-top: 627px;
+        margin-top: 679px;
     }    
 
 
