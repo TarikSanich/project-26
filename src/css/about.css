@@ -1,0 +1,83 @@
+/* Медіазапити залишаємо як є */
+@media (min-width: 320px) and (max-width: 374px) {}
+
+/*===========PHONE==================*/
+.about-us {
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #1C2225;
+    width: auto;
+    height: auto;
+    margin-top: 1000px ;
+
+}
+
+.container-about {
+    display: inline-block;
+    align-items: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.title-about {
+    color: #FCF9F9;
+    font-family: Manrope;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: -0.03em;
+    margin-bottom: 40px;
+}
+
+.paragraph {
+    color: rgba(252, 249, 249, 0.40);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.04em;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+
+}
+
+.paragraph-two {
+    color: rgba(252, 249, 249, 0.40);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.04em;
+    width: 100%;
+    height: auto;
+}
+.about-image{
+    border-radius: 4px;
+    width: 335px;
+    
+    margin-top: 50px;}
+
+
+
+/*===============TABLET================*/
+
+@media screen and (min-width: 768px){
+.container-about{ width: 768px;
+padding-left: 32px;
+padding-right: 32px;
+}} 
+/*==========DESKTOP==============*/
+
+@media screen and(min-width: 1280px){
+   .container-about {width: 1280px;
+    padding-left: 100px;
+    padding-right: 100px;
+   }
+}
+@media screen and (min-width: 1280px) {
+    .container {
+        width: 1080px;
+    }
+}
