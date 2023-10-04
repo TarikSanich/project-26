@@ -58,6 +58,7 @@ width: 335px;
 @media screen and (min-width: 1280px) {
     .testimonials-block {
         margin: 150px 100px;
+        width: auto;
     }
     .testimonials-cards {
         gap: 26px;
@@ -111,7 +112,7 @@ height: 225px;
         width: auto;
         height: auto;
     }
-    .testimonials-container {
+    .testimonials-containers {
         width: auto;
         height: auto;
     }
@@ -155,26 +156,35 @@ font-weight: 400;
 line-height: normal;
 width: 291px;
 }
-
+.testimonials-wrap {
+    width: 100%;
+    max-height: 34px;
+    
 /* Tablet */
 @media screen and (min-width: 765px) {
     .testimonials-answer {
         font-size: 16px;
         width: 300px;
         height: 176px;
-    }
-    .testimonials-card-Sergey .testimonials-answer  {
-        height: auto;
-    }
+    } 
  }
 
 /* Desktop */
 @media screen and (min-width: 1280px) {
-}
-.testimonials-wrap {
-width: 100%;
-max-height: 34px;
 
+
+}
+.testimonials-answer {
+    width: 307px;
+}
+.testimonials-card-Sergey .testimonials-answer {
+    height: 175px;
+}
+.testimonials-card-Natalia .testimonials-answer {
+    width: 306px;
+    height: 175px;
+
+}
 }
 .testimonials-image {
 width: 64px;
