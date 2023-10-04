@@ -4,6 +4,8 @@
   | default @import url()
   |============================
 */
+@import url('./common.css');
+@import url('./container.css');
 @import url('./reset.css');
 @import url('./header.css');
 @import url('./hero.css');
@@ -14,14 +16,10 @@
 @import url('./footer.css');
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-
   --black-color: #1c2225;
   --yellow-color: #ecd979;
   --white-color: #fcf9f9;
+  --gray-border-color: ;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
