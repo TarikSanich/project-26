@@ -125,7 +125,10 @@ background-color: #1C2225;
         width: 413px;
         margin-top: 40px;
         
-    }    
+    } 
+    .button-hero {
+        font-size: 16px;
+    }   
 
     .shapka {
         display: flex;
@@ -142,7 +145,7 @@ background-color: #1C2225;
         display: inline-flex;
         flex-direction: column;
         align-items: center;
-        gap: 10px;
+        gap: 16px;
         margin-left: auto;
         margin-right: auto;
         margin-top: 80px;
@@ -156,7 +159,8 @@ background-color: #1C2225;
     .star-icon {
         width: 52px;
         height: 51px;
-        margin-bottom: 16px; 
+        margin-bottom: 16px;
+        padding-left: 32px; 
         margin-left: auto;
         margin-right: auto; 
     }
@@ -166,7 +170,7 @@ background-color: #1C2225;
         flex-wrap: wrap;
         color: rgba(252, 249, 249, 0.40);
         font-family: Manrope;
-        font-size: 16px;
+        font-size: 15px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -184,7 +188,7 @@ background-color: #1C2225;
         }
 
     .elips-shapka {
-        margin-top: 679px;
+        margin-top: 737px;
     }    
 
 
@@ -232,7 +236,7 @@ background-color: #1C2225;
     background-color: #1C2225;
 }
 .elips-shapka {
-    margin-top: 317px;
+    margin-top: 318px;
 }
 
 .container-star {
