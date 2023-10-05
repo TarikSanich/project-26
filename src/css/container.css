@@ -13,12 +13,12 @@
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 704px;
+    width: 744px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .container {
-    width: 1080px;
+    width: 1120px;
   }
 }

@@ -1,8 +1,8 @@
 .hero-container {
   display: flex;
   flex-direction: column;
-  margin-top: 60px;
-  margin-bottom: 80px;
+  padding: 60px;
+  padding-bottom: 80px;
   justify-content: center;
 }
 /* .section-hero {
@@ -15,7 +15,6 @@
 
 .title-hero {
   color: var(--white-color);
-  max-width: 335px;
   font-size: 44px;
   font-style: normal;
   line-height: 1.22;
@@ -55,7 +54,7 @@
 }
 
 .button-hero:hover,
-:focus {
+.button-hero:focus {
   border: 1px solid var(--yellow-color);
 }
 
@@ -68,10 +67,6 @@
 .image-hero {
   max-width: 335px;
   border-radius: 4px;
-  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-  padding-left: 20px;
-  padding-right: 20px;
-  background-color: #1c2225;
 }
 
 .container-star {
@@ -83,33 +78,27 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container-hero {
-    width: 678px;
-    transform: translateX(50%);
-  }
-
-  .section-hero {
-    width: 678px;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+  .hero-container {
+    -top: 80px;
   }
 
   .title-hero {
     width: 549px;
+    height: 192px;
     font-size: 54px;
     line-height: 64px;
     letter-spacing: -1.62px;
-    margin-top: 106px;
+    margin-top: 26px;
     margin-bottom: 40px;
   }
 
   .image-hero {
     width: 413px;
-    margin-top: 40px;
   }
   .button-hero {
     font-size: 16px;
+    width: 168px;
+    height: 50px;
   }
 
   .shapka {
@@ -199,14 +188,12 @@
   }
 
   .image-hero {
-    display: block;
     width: 391px;
     height: 545px;
     margin-top: 100px;
     border-radius: 4px;
     padding-left: 20px;
     padding-right: 20px;
-    background-color: #1c2225;
   }
   .elips-shapka {
     margin-top: 318px;
