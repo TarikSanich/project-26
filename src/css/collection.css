@@ -1,3 +1,8 @@
+.section-collection {
+  padding-top: 18px;
+  padding-bottom: 40px;
+}
+
 .our-collection {
   color: #fcf9f9;
   font-size: 44px;
@@ -28,25 +33,30 @@
   margin-top: 8px;
 }
 
-.div-container-collection {
-  width: 335px;
-}
 /* MOBILE */
 
 @media screen and (min-width: 768px) {
+  .section-collection {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
   .list-item-collection {
     display: flex;
-    gap: 24px;
+    gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
   }
   .list-vyshyvanka {
-    width: calc((100% - 24px) / 3);
+    width: calc((100% - 20px) / 2);
   }
 }
 @media screen and (min-width: 1280px) {
+  .section-collection {
+    padding-top: 70px;
+    padding-bottom: 75px;
+  }
   .list-vyshyvanka {
-    width: calc((100% - 40px) / 3);
+    width: calc((100% - 80px) / 3);
   }
   .container {
     width: 1280px;
