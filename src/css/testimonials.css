@@ -1,8 +1,11 @@
 .testimonials-section {
-    background-color: #1C2225;
-    margin: 0;
+    margin: 81px 20px 80px 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
     }
 
+    
 .testimonials-block {
     display: flex;
     width: 335px;
@@ -36,6 +39,9 @@ width: 335px;
 
 /* Tablet */
 @media screen and (min-width: 765px) {
+    .testimonials-section {
+        margin: 100px 32px 100px 32px;
+    }
     .testimonials-block {
         display: inline-flex;
         width: 704px;
@@ -63,6 +69,8 @@ width: 335px;
     .testimonials-cards {
         gap: 26px;
     }
+    .testimonials-section {
+        margin: 150px 100px 150px 100px;}
 }
 
 .testimonials-card-Maria {
