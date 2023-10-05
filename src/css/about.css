@@ -56,9 +56,14 @@
 .about-image{
     border-radius: 4px;
     width: 335px;
-    
+    height: 499px;
     margin-top: 50px;}
-
+.about-us{
+    background-image: url(../img/about/elements.png);
+    padding-bottom: 80px;
+    background-position: right bottom 18px;
+    background-repeat: no-repeat;
+}
 
 
 /*===============TABLET================*/
@@ -68,6 +73,13 @@
 padding-left: 32px;
 padding-right: 32px;
 }} 
+.about-image{
+  margin-top: 40px;
+
+}
+
+
+
 /*==========DESKTOP==============*/
 
 @media screen and(min-width: 1280px){
@@ -76,6 +88,35 @@ padding-right: 32px;
     padding-right: 100px;
    }
 }
+.paragraph-container{ display: flex;
+            flex-direction: column;
+    width: 436px;
+    
+}
+
+.paragraph{
+    color: rgba(252, 249, 249, 0.40);
+    
+        font-size: 16px;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.04em;
+}
+.paragraph-two{
+    color: rgba(252, 249, 249, 0.40);
+    
+        font-size: 16px;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.04em;
+
+}
+.about-image{
+    
+    width: 594px;
+   
+}
+
 @media screen and (min-width: 1280px) {
     .container {
         width: 1080px;
