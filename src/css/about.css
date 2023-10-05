@@ -90,11 +90,14 @@ padding-right: 32px;
     padding-right: 100px;
    }
 }
+
+
 .paragraph-container{ display: flex;
             flex-direction: column;
     width: 436px;
     
 }
+
 
 .paragraph{
     color: rgba(252, 249, 249, 0.40);
