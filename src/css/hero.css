@@ -115,9 +115,6 @@ background-color: #1C2225;
     display: none;
 }
 
-.shapka {
-    display: none;
-}
 
 @media screen and (min-width:768px) {
     .container-hero {
@@ -150,16 +147,12 @@ background-color: #1C2225;
         font-size: 16px;
     }   
 
-    .shapka {
-        display: flex;
-        width:142px;
-        height:156px;
-    }
 
     .hero-position {
     display: flex;
     flex-direction: row;
     }
+
 
     .container-star {
         display: inline-flex;
@@ -171,10 +164,12 @@ background-color: #1C2225;
         margin-top: 80px;
     }
 
+
     .block.star {
         margin-left: auto;
         margin-right: auto;
     }
+
 
     .star-icon {
         width: 52px;
@@ -184,6 +179,7 @@ background-color: #1C2225;
         margin-left: auto;
         margin-right: auto; 
     }
+
 
     .paragraf-star {
         display: flex;
@@ -200,12 +196,6 @@ background-color: #1C2225;
         
     }
 
-
-
-    .shapka {
-            width: 139px;
-            height: 99px;
-        }
 
     .elips-shapka {
         margin-top: 737px;
