@@ -67,9 +67,10 @@
 
 @media screen and (min-width: 768px) {
   .container-about {
-    width: 768px;
+    width: 704px;
     padding-left: 32px;
     padding-right: 32px;
+    
   }
 }
 .about-image {
@@ -86,10 +87,13 @@
   }
 }
 
-.paragraph-container {
-  display: flex;
-  flex-direction: column;
-  width: 436px;
+.container-about{
+  
+
+  width: auto;
+  height: auto;
+
+  
 }
 
 .paragraph {
