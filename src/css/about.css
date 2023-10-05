@@ -67,7 +67,7 @@
 
 @media screen and (min-width: 768px) {
   .container-about {
-    width: 768px;
+    width: 704px;
     padding-left: 32px;
     padding-right: 32px;
     
@@ -88,12 +88,12 @@
 }
 
 .container-about{
-  display: flex;
+  
 
   width: auto;
   height: auto;
-  padding-left: 100px;
-  padding-right: 100px;
+
+  
 }
 
 .paragraph {
