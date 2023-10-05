@@ -1,6 +1,15 @@
 .section-collection {
   padding-top: 18px;
   padding-bottom: 40px;
+  position: relative;
+}
+
+.background-image-collection {
+  background-image: url(../img/collection/ornament.png);
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 254px;
 }
 
 .our-collection {
