@@ -70,6 +70,7 @@
     width: 768px;
     padding-left: 32px;
     padding-right: 32px;
+    
   }
 }
 .about-image {
@@ -86,10 +87,13 @@
   }
 }
 
-.paragraph-container {
+.container-about{
   display: flex;
-  flex-direction: column;
-  width: 436px;
+
+  width: auto;
+  height: auto;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .paragraph {
