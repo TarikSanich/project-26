@@ -35,6 +35,11 @@
     color: #ECD979;
 }
 
+.footer-link:hover,
+.footer-link:focus {
+    color: var(--yellow-color);
+  }
+
 .footer-ornament {
 
     background-repeat: no-repeat;
