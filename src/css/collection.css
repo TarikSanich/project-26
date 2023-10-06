@@ -6,12 +6,19 @@
   margin-right: auto;
 }
 
-.background-image-collection {
-  background-image: url(../img/collection/ornament.png);
+/* .background-image-collection {
+  background-image: url(/img/collection/ornament.png);
   z-index: -1;
   position: absolute;
   left: 0;
   top: 254px;
+} */
+
+.collection {
+  background-image: url(../img/collection/ornament.png);
+  padding-bottom: 100px;
+  background-position: left top 270px;
+  background-repeat: no-repeat;
 }
 
 .our-collection {
