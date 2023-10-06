@@ -37,7 +37,7 @@
 
 .footer-link:hover,
 .footer-link:focus {
-    color: var(--yellow-color);
+    border: 1px solid var(--yellow-color);
   }
 
 .footer-ornament {
