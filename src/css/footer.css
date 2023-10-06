@@ -36,12 +36,15 @@
 }
 
 .footer-ornament {
-    width: 452px;
-    height: 200px;
-    background-image: url('../src/img/ornament.png');
+
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: auto;
+    height: 292px;
+    background-image: url("/img/footer/ornament-footer-mobile.png");
 }
 
-@media screen and (min-whidth: 320px) {
+@media screen and (min-whidth: 375px) {
     .footer-text-slogan {
         max-width: 335px;
     }
