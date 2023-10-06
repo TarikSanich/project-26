@@ -13,7 +13,7 @@
 }
 
 .our-collection {
-  color: #fcf9f9;
+  color: var(--white-color);
   font-size: 44px;
   font-weight: 500;
   line-height: 64px;
@@ -22,9 +22,17 @@
   margin-bottom: 40px;
 }
 
+.list-vyshyvanka {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 20px;
+  align-items: center;
+}
+
 .text-model-vyshyvanka {
   overflow: hidden;
-  color: #fcf9f9;
+  color: var(--white-color);
   text-overflow: ellipsis;
   font-size: 18px;
   font-weight: 500;
@@ -49,13 +57,13 @@
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  .list-item-collection {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
   .list-vyshyvanka {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .list-item-collection {
     width: calc((100% - 20px) / 2);
   }
 }
@@ -64,10 +72,7 @@
     padding-top: 70px;
     padding-bottom: 75px;
   }
-  .list-vyshyvanka {
+  .list-item-collection {
     width: calc((100% - 80px) / 3);
-  }
-  .container {
-    width: 1280px;
   }
 }
