@@ -1,8 +1,19 @@
 .section-collection {
-  background: var(--black, #1c2225);
+  padding-top: 18px;
+  padding-bottom: 40px;
+  position: relative;
 }
+
+.background-image-collection {
+  background-image: url(../img/collection/ornament.png);
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 254px;
+}
+
 .our-collection {
-  color: #fcf9f9;
+  color: var(--white-color);
   font-size: 44px;
   font-weight: 500;
   line-height: 64px;
@@ -11,9 +22,17 @@
   margin-bottom: 40px;
 }
 
+.list-vyshyvanka {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 20px;
+  align-items: center;
+}
+
 .text-model-vyshyvanka {
   overflow: hidden;
-  color: #fcf9f9;
+  color: var(--white-color);
   text-overflow: ellipsis;
   font-size: 18px;
   font-weight: 500;
@@ -31,27 +50,29 @@
   margin-top: 8px;
 }
 
-.div-container-collection {
-  width: 335px;
-}
 /* MOBILE */
 
 @media screen and (min-width: 768px) {
-  .list-item-collection {
+  .section-collection {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .list-vyshyvanka {
     display: flex;
-    gap: 24px;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
   }
-  .list-vyshyvanka {
-    width: calc((100% - 24px) / 3);
+  .list-item-collection {
+    width: calc((100% - 20px) / 2);
   }
 }
 @media screen and (min-width: 1280px) {
-  .list-vyshyvanka {
-    width: calc((100% - 40px) / 3);
+  .section-collection {
+    padding-top: 70px;
+    padding-bottom: 75px;
   }
-  .container {
-    width: 1280px;
+  .list-item-collection {
+    width: calc((100% - 80px) / 3);
   }
 }
