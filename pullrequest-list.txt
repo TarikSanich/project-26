@@ -5,3 +5,5 @@
 4.https://github.com/helgiles/project-26/pull/24
 5.https://github.com/helgiles/project-26/pull/37
 6.https://github.com/helgiles/project-26/pull/40
+7.https://github.com/helgiles/project-26/pull/41
+8.https://github.com/helgiles/project-26/pull/42
