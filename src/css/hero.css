@@ -41,8 +41,8 @@
 
 .button-hero {
     display: flex;
-    height: 50px;
-    width: 168px;
+    height: 21px;
+    width: 82px;
     padding: 14px 36px;
     justify-content: center;
     align-items: center;
@@ -125,15 +125,17 @@
         
     } 
     .button-hero {
-        font-size: 16px;
-        margin-top: 20px;
-        margin-bottom: 20px;
+      width: 90px;
+      height: 22px;
+      font-size: 16px;
+      margin-top: 20px;
+      margin-bottom: 20px;
     }   
 
     .shapka {
-        display: flex;
-        width:142px;
-        height:156px;
+      display: flex;
+      width:142px;
+      height:156px;
     }
 
     .hero-position {
