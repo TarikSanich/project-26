@@ -1,18 +1,21 @@
-/* Медіазапити залишаємо як є */
+
 @media (min-width: 320px) and (max-width: 374px) {
 }
 
 /*===========PHONE==================*/
 .about-us {
   background: #1c2225;
+  width: 375px;
+  padding-left: 20px;
+  padding-right: 20px;
 
 }
 
 .container-about {
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+ 
 }
 
 .title-about {
@@ -68,14 +71,28 @@
     
   }
 }
+.about-us{
+  width: ;
+}
+/*
+.about-us{
+  width: 768px;
+ margin-left: auto;
+  margin-right: auto;
+}
 .about-image {
   margin-top: 40px;
-}
+}*/
 
 /*==========DESKTOP==============*/
 
 
-
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1080px;
+  }
+}
+/*
 .paragraph {
   color: rgba(252, 249, 249, 0.4);
 
@@ -93,11 +110,6 @@
   letter-spacing: -0.04em;
 }
 .about-image {
-  width: 594px;
+  
 }
-
-@media screen and (min-width: 1280px) {
-  .container {
-    width: 1080px;
-  }
-}
+*/
