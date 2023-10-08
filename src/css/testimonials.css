@@ -2,7 +2,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  padding-top: 40px;
+  padding-top: 80px;
   padding-bottom: 80px;
 }
 
@@ -38,7 +38,7 @@
 /* Tablet */
 @media screen and (min-width: 765px) {
   .testimonials-section {
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 100px;
   }
   .testimonials-block {
@@ -61,15 +61,15 @@
 }
 /* Desktop */
 @media screen and (min-width: 1280px) {
+  .testimonials-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
   .testimonials-block {
-    /* margin: 150px 100px; */
     width: auto;
   }
   .testimonials-cards {
     gap: 26px;
-  }
-  .testimonials-section {
-    margin: 150px 100px 150px 100px;
   }
 }
 

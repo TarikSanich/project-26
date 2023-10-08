@@ -6,11 +6,10 @@
   margin-right: auto;
 }
 
-
 .collection {
   background-image: url(../img/collection/ornament.png);
   padding-bottom: 100px;
-  background-position: left top 270px;
+  background-position: left top 200px;
   background-repeat: no-repeat;
 }
 
@@ -75,12 +74,14 @@
     padding-bottom: 50px;
   }
 
+  .collection {
+    background-position: left top 270px;
+  }
 
-
- .img-item {
-  width: 342px;
-  height: 430px;
- }
+  .img-item {
+    width: 342px;
+    height: 430px;
+  }
 
   .list-vyshyvanka {
     display: flex;
@@ -104,19 +105,16 @@
     width: calc((100% - 20 * 4) / 6);
     height: 492px;
   }
-  
 
+  .img-item {
+    height: 347px;
+    height: 430px;
+  }
 
-.img-item {
-  height: 347px;
-  height: 430px;
-}
-
-.list-vyshyvanka {
-      display: flex;
-        flex-wrap: wrap;
-        column-gap: 24px;
-        row-gap: 48px;
-}
-
+  .list-vyshyvanka {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+  }
 }
