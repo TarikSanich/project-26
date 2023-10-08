@@ -1,6 +1,6 @@
 .section-collection {
   padding-top: 18px;
-  padding-bottom: 40px;
+  padding-bottom: 80px;
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -8,7 +8,7 @@
 
 .collection {
   background-image: url(../img/collection/ornament.png);
-  padding-bottom: 100px;
+
   background-position: left top 200px;
   background-repeat: no-repeat;
 }
@@ -71,7 +71,7 @@
 @media screen and (min-width: 768px) {
   .section-collection {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
   }
 
   .collection {
@@ -97,7 +97,7 @@
 @media screen and (min-width: 1280px) {
   .section-collection {
     padding-top: 70px;
-    padding-bottom: 75px;
+    padding-bottom: 150px;
     margin-left: auto;
     margin-right: auto;
   }
